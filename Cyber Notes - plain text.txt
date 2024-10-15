@@ -1,0 +1,104 @@
+The computer
+Computer case
+The computer case is the metal and plastic box that contains the main components of the computer, including the motherboard, central processing unit (CPU), and power supply. The front of the case usually has an on/Off button and one or more optical drives.
+
+Monitor
+The monitor works with a video card, located inside the computer case, to display images and text on the screen. Most monitors have control buttons that allow you to change your monitor's display settings, and some monitors also have built-in speakers.
+
+Keyboard
+The keyboard is one of the main ways to communicate with a computer. There are many different types of keyboards, but most are very similar and allow you to accomplish the same basic tasks.
+
+Mouse
+The mouse is another important tool for communicating with computers. Commonly known as a pointing device, it lets you point to objects on the screen, click on them, and move them.
+
+Input Unit of Computer System
+The computer system responds to the instruction it receives from the users. And to get those instructions, a computer needs an input unit. This includes all the input devices responsible for reading the data entered by the user.
+
+Output Unit of Computer System
+The user, when sending a set of instructions to the computer, reaches the output device in the end. The execution of command takes place here and the users get their results. The processor sends the transcripted instructions to the output devices for execution. These devices always have a connection to the system and thus the coordination is quite easy.
+
+A motherboard is the main printed circuit board in general-purpose computers and other expandable systems. It holds and allows communication between many of the crucial electronic components of a system, such as the central processing unit and memory, and provides connectors for other peripherals.
+
+1. CPU (Central Processing Unit) chip
+CPU is the electronic circuitry in a computer that executes instructions that make up a program. It is also known as a central processor or the main processor. The CPU executes the basic logic, arithmetic, controlling as well as input/output (I/O) operations specified by the instructions in the desktop programs.
+
+2. RAM (Random Access Memory) slots
+RAM is a kind of computer memory that can be read and written. It is mainly used to save data and machine code. A RAM device permits data to be read or written in nearly the same amount of time no matter where the data’s physical location is in the memory. Compared to the direct-access storage devices like hard drives, CD/DVD and magnetic tapes, RAM media is much faster for data reading and writing.
+
+3. Southbridge/northbridge
+They are the two chips in the core logic chipset on the motherboard. Typically, the southbridge implements the slower capabilities of the motherboard in a northbridge/southbridge chipset computer architecture.
+
+The northbridge, also known as host bridge or Memory Controller Hub, is connected directly to the CPU via the front-side bus (FSB). It is responsible for tasks requiring the highest performance. Together with the southbridge, they manage communications between the CPU and other motherboard components.
+
+4. BIOS (Basic Input/Output System)
+BIOS, also called system BIOS, PC BIOS or ROM BIOS, is firmware used to perform hardware initialization during the booting process and to provide runtime services for operating systems and programs. The BIOS firmware is the first software to run when powered on; it is re-installed on a PC’s system board.
+
+5. I/O port
+Input/output ports are the connections between the CPU and peripheral devices on a motherboard. There are two complementary methods to perform input and output processes: memory-mapped I/O (MMIO) and port-mapped I/O (PMIO). Alternatively, you can use dedicated I/O processors, called channels on mainframe computers, which execute their own instructions. 
+
+6. USB (Universal Serial Bus)
+USB is an industry standard that creates specifications for connectors, cables and protocols for connection; power supply (interfacing) and communication among computers, computer peripherals as well as other desktops. There are a great many USB hardware including several different connectors, of which USB-C is the latest kind.  
+
+7. CPU slot
+A CPU slot, also called a CPU socket or Processor socket, contains one or more mechanical components that provide mechanical and electrical connections between the PCB and a microprocessor (CPU). Therefore, you can install a CPU on a motherboard without soldering.
+
+8. FDC (Floppy-Disk Controller)
+FDC is a special-purpose chip and associated disk controller circuitry. It controls and directs reading from and writing to a computer’s floppy disk drive (FDD).	
+
+9. Power supply connector
+A power supply provides the necessary electrical power to let the computer to work. It takes standard 110-Volt AC (Alternative Current) power to DC (Direct Current) power of 12 Volt, 5 Volt, 3.3 Volt, etc.
+
+10. Mouse and keyboard ports
+All computers have a keyboard port connected directly to the motherboard. There are two types of connectors. The oldest one is a special DIN (Deutsches Institut für Normung) connector while the newest one is the mini DIN PS/2-style connector. Many PCs use the PS/2-style connectors for both keyboard and mouse; and the connectors are marked clearly for different usage.  
+
+11. Clock generator
+A clock generator is an electronic oscillator (circuit) that produces a clock signal for usage in synchronizing a circuit’s operation. The clock signal ranges between high and low frequencies, thus creating a metronome for the coordination of actions.
+
+A CPU socket - the actual CPU is directly soldered onto the socket.
+A power connector to distribute power to the CPU and other components.
+Slots for the system's main memory, typically in the form of DRAM chips.
+A chip forms an interface between the CPU, the main memory and other components.
+
+
+Virtual Machine (VM): A virtual machine (VM) is an isolated computing environment created by abstracting resources from a physical machine.
+
+VM Terminal codes:
+Cd-change Location
+Cd.../-takes you back a directory (opposite of cd)
+Ls-shows your available folder and directories
+Ls –l-long list of ls
+Mv-moves folder
+Rm-deletes folder
+touch -makes a new file
+Pwd-shows working directory
+Nano-makes a new file
+Rwx-read, write, execute
+The three ways to make a file in a Debian terminal are: nano, touch, nano filename
+What is root and how to navigate to it?
+The root directory is basically the normal Linux home directory, and you can get there by typing “cd /” in your vm terminal. And to go back to your normal directory you do “cd home” then “cd (name of user)”
+How to go up two levels in Linux?l
+To go up two levels in your vm you do “cd (name of directory)/ (name of directory)/” 
+Git access token/password: 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
+
+Basic Git commands:
+* git init: Initializes a new Git repository in your current directory.
+* git clone [URL]: Copies a remote repository to your local machine.
+* git status: Shows the current status of the working directory and staging area (e.g., files added, modified, or deleted).
+* git add [file]: Stages changes to a file, marking it for the next commit.
+* git add .: Stages all changes in the current directory for commit.
+* git commit -m "[message]": Commits staged changes with a descriptive message.
+* git log: Shows the commit history of the repository.
+* git branch: Lists all the branches in your repository. The current branch is marked with an asterisk.
+* git checkout [branch-name]: Switches to the specified branch.
+* git merge [branch-name]: Merges the specified branch into the current branch.
+* git pull: Fetches and merges changes from the remote repository to your current branch.
+* git push: Pushes your committed changes to the remote repository.
+* git remote -v: Displays the URLs of the remote repositories.
+* git fetch: Downloads changes from the remote repository but does not merge them into your current branch.
+* git reset [file]: Unstages a file, keeping the changes in the working directory.
+* git reset --hard [commit]: Resets the repository to a specific commit, discarding all changes after it.
+* git diff: Shows the differences between working directory changes and the last commit.
+* git stash: Temporarily saves uncommitted changes for later.
+* git stash pop: Applies the most recent stashed changes and removes them from the stash.
+* git rm [file]: Removes a file from the working directory and stages the deletion for commit.
+
