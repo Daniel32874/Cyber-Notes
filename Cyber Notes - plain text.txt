@@ -23,7 +23,7 @@ A motherboard is the main printed circuit board in general-purpose computers and
 CPU is the electronic circuitry in a computer that executes instructions that make up a program. It is also known as a central processor or the main processor. The CPU executes the basic logic, arithmetic, controlling as well as input/output (I/O) operations specified by the instructions in the desktop programs.
 
 2. RAM (Random Access Memory) slots
-RAM is a kind of computer memory that can be read and written. It is mainly used to save data and machine code. A RAM device permits data to be read or written in nearly the same amount of time no matter where the data’s physical location is in the memory. Compared to the direct-access storage devices like hard drives, CD/DVD and magnetic tapes, RAM media is much faster for data reading and writing.
+RAM is a kind of computer memory that can be read and written. It is mainly used to save data and machine code. A RAM device permits data to be read or written in nearly the same amount of time no matter where the dataï¿½s physical location is in the memory. Compared to the direct-access storage devices like hard drives, CD/DVD and magnetic tapes, RAM media is much faster for data reading and writing.
 
 3. Southbridge/northbridge
 They are the two chips in the core logic chipset on the motherboard. Typically, the southbridge implements the slower capabilities of the motherboard in a northbridge/southbridge chipset computer architecture.
@@ -31,7 +31,7 @@ They are the two chips in the core logic chipset on the motherboard. Typically, 
 The northbridge, also known as host bridge or Memory Controller Hub, is connected directly to the CPU via the front-side bus (FSB). It is responsible for tasks requiring the highest performance. Together with the southbridge, they manage communications between the CPU and other motherboard components.
 
 4. BIOS (Basic Input/Output System)
-BIOS, also called system BIOS, PC BIOS or ROM BIOS, is firmware used to perform hardware initialization during the booting process and to provide runtime services for operating systems and programs. The BIOS firmware is the first software to run when powered on; it is re-installed on a PC’s system board.
+BIOS, also called system BIOS, PC BIOS or ROM BIOS, is firmware used to perform hardware initialization during the booting process and to provide runtime services for operating systems and programs. The BIOS firmware is the first software to run when powered on; it is re-installed on a PCï¿½s system board.
 
 5. I/O port
 Input/output ports are the connections between the CPU and peripheral devices on a motherboard. There are two complementary methods to perform input and output processes: memory-mapped I/O (MMIO) and port-mapped I/O (PMIO). Alternatively, you can use dedicated I/O processors, called channels on mainframe computers, which execute their own instructions. 
@@ -43,16 +43,16 @@ USB is an industry standard that creates specifications for connectors, cables a
 A CPU slot, also called a CPU socket or Processor socket, contains one or more mechanical components that provide mechanical and electrical connections between the PCB and a microprocessor (CPU). Therefore, you can install a CPU on a motherboard without soldering.
 
 8. FDC (Floppy-Disk Controller)
-FDC is a special-purpose chip and associated disk controller circuitry. It controls and directs reading from and writing to a computer’s floppy disk drive (FDD).	
+FDC is a special-purpose chip and associated disk controller circuitry. It controls and directs reading from and writing to a computerï¿½s floppy disk drive (FDD).	
 
 9. Power supply connector
 A power supply provides the necessary electrical power to let the computer to work. It takes standard 110-Volt AC (Alternative Current) power to DC (Direct Current) power of 12 Volt, 5 Volt, 3.3 Volt, etc.
 
 10. Mouse and keyboard ports
-All computers have a keyboard port connected directly to the motherboard. There are two types of connectors. The oldest one is a special DIN (Deutsches Institut für Normung) connector while the newest one is the mini DIN PS/2-style connector. Many PCs use the PS/2-style connectors for both keyboard and mouse; and the connectors are marked clearly for different usage.  
+All computers have a keyboard port connected directly to the motherboard. There are two types of connectors. The oldest one is a special DIN (Deutsches Institut fï¿½r Normung) connector while the newest one is the mini DIN PS/2-style connector. Many PCs use the PS/2-style connectors for both keyboard and mouse; and the connectors are marked clearly for different usage.  
 
 11. Clock generator
-A clock generator is an electronic oscillator (circuit) that produces a clock signal for usage in synchronizing a circuit’s operation. The clock signal ranges between high and low frequencies, thus creating a metronome for the coordination of actions.
+A clock generator is an electronic oscillator (circuit) that produces a clock signal for usage in synchronizing a circuitï¿½s operation. The clock signal ranges between high and low frequencies, thus creating a metronome for the coordination of actions.
 
 A CPU socket - the actual CPU is directly soldered onto the socket.
 A power connector to distribute power to the CPU and other components.
@@ -66,7 +66,7 @@ VM Terminal codes:
 Cd-change Location
 Cd.../-takes you back a directory (opposite of cd)
 Ls-shows your available folder and directories
-Ls –l-long list of ls
+Ls ï¿½l-long list of ls
 Mv-moves folder
 Rm-deletes folder
 touch -makes a new file
@@ -75,9 +75,9 @@ Nano-makes a new file
 Rwx-read, write, execute
 The three ways to make a file in a Debian terminal are: nano, touch, nano filename
 What is root and how to navigate to it?
-The root directory is basically the normal Linux home directory, and you can get there by typing “cd /” in your vm terminal. And to go back to your normal directory you do “cd home” then “cd (name of user)”
+The root directory is basically the normal Linux home directory, and you can get there by typing ï¿½cd /ï¿½ in your vm terminal. And to go back to your normal directory you do ï¿½cd homeï¿½ then ï¿½cd (name of user)ï¿½
 How to go up two levels in Linux?l
-To go up two levels in your vm you do “cd (name of directory)/ (name of directory)/” 
+To go up two levels in your vm you do ï¿½cd (name of directory)/ (name of directory)/ï¿½ 
 Git access token/password: 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
 
 Basic Git commands:
@@ -101,4 +101,139 @@ Basic Git commands:
 * git stash: Temporarily saves uncommitted changes for later.
 * git stash pop: Applies the most recent stashed changes and removes them from the stash.
 * git rm [file]: Removes a file from the working directory and stages the deletion for commit.
+
+What is Bash Scripting?:
+* Writing a list of commands in a file that the computer can follow.
+* Bash is the program that runs these commands, mostly used on Linux and macOS.
+
+Key Features of Bash Scripting:
+* Automates tasks: Saves you from doing the same thing over and over.
+* Combines commands: Runs many commands one after the other.
+* Variables: Lets you store information like names or numbers to use later.
+* Control flow: Allows you to make decisions and repeat actions (loops, if-else).
+
+* Common Uses of Bash Scripting:
+* System management: Updating your computer, backing up files automatically.
+* File handling: Copying, moving, or deleting lots of files quickly.
+* Task automation: Doing things like running programs or gathering data automatically.
+* Text editing: Searching and changing text in files.
+* Server management: Managing users, programs, and scheduling tasks.
+* Software setup: Installing and setting up programs without doing it manually.
+
+How to Use Bash Scripting:
+* Create a file using a simple text editor and save it with a .sh extension (e.g., myscript.sh).
+* Start with a Shebang line which is the first line  should be #!/bin/bash to specify the script will be run using Bash.
+* Type the commands you want the computer to follow.
+* Give permission to run the script.
+* Execute the file to see the results.
+
+Examples:
+Using Variables ($VAR):
+* Variables store data that you can reuse.
+* Assign a value to a variable, and access it using $.
+Example:
+#!/bin/bash
+# Defination of the variable
+name="Alice"
+
+# Usage of the variable
+echo "Hello, $name!"
+
+if-else Statement:
+* Allows you to execute different commands based on conditions.
+Example:
+#!/bin/bash
+# Check if a number is greater than 10
+number=15
+
+if [ $number -gt 10 ]
+then
+    echo "Number is greater than 10"
+else
+    echo "Number is less than or equal to 10"
+fi
+
+for Loop:
+* Repeats commands for a set number of times or through a list.
+Example:
+#!/bin/bash
+# Loop through a list of names for name in Alice Bob Charlie
+do
+    echo "Hello, $name!"
+done
+
+while Loop:
+* Keeps running as long as a condition is true.
+Example: 
+#!/bin/bash
+# Print numbers from 1 to 5
+counter=1
+
+while [ $counter -le 5 ]
+do
+    echo "Counter: $counter"
+    ((counter++))
+done
+
+Key Bash Commands:
+echo:
+* Prints text or variables to the screen.
+
+Example:
+echo "Hello, World!"
+
+read:
+* Reads user input and stores it in a variable.
+
+Example:
+echo "Enter your name:"
+read name
+echo "Hello, $name!"
+
+touch:
+*Creates an empty file.
+
+Example:
+touch newfile.txt
+
+ls:
+*Lists files and directories in the current folder.
+
+Example:
+ls
+
+mkdir:
+* Creates a new directory (folder).
+
+Example:
+mkdir newfolder
+
+cd:
+* Changes the current directory.
+
+Example:
+cd newfolder
+
+rm:
+* Removes files or directories.
+
+Example:
+rm file.txt
+
+What is System Monitoring?:
+* System monitoring refers to the continuous assessment of a computerâ€™s hardware and software performance, ensuring that resources (CPU, memory, disk usage, network, etc.) are functioning correctly.
+
+Importance:
+* Prevents system failures by identifying potential issues early.
+* Helps optimize resource allocation.
+* Ensures critical processes are running efficiently.
+* Maintains overall system health and performance.
+
+
+
+
+
+
+
+
 
