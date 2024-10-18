@@ -229,6 +229,153 @@ Importance:
 * Ensures critical processes are running efficiently.
 * Maintains overall system health and performance.
 
+2. Key Tools for System Monitoring
+
+a. top
+•	Purpose: Displays real-time information about running processes, CPU, memory usage, and overall system load.
+•	How to use:
+top
+o	Displays active processes and resource usage. Press q to quit.
+
+b. htop
+•	Purpose: Similar to top, but with a more user-friendly interface that allows for easier process monitoring.
+•	How to use:
+htop
+o	Shows detailed information on CPU, memory usage, and allows process management with a keyboard interface.
+
+c. df
+•	Purpose: Shows disk space usage of file systems.
+•	How to use:
+df -h
+o	Displays disk usage in a human-readable format (e.g., GB/MB).
+
+d. uptime
+•	Purpose: Displays how long the system has been running, along with the current load average.
+•	How to use:
+uptime
+o	Shows system uptime and average load for the past 1, 5, and 15 minutes.
+________________________________________
+3. Log Monitoring
+
+a. journalctl
+•	Purpose: Views system logs managed by systemd. These logs contain critical information for diagnosing issues.
+•	How to use:
+journalctl -xe
+o	Shows the most recent logs, with a detailed explanation (-xe).
+o	
+b. /var/log
+•	Purpose: This directory stores various system and application logs (e.g., auth.log, syslog, dmesg).
+•	How to view logs:
+o	Use cat or less to view logs. For example:
+cat /var/log/syslog
+less /var/log/auth.log
+________________________________________
+
+4. Self-Made Instructions: Monitoring System Resource Usage and Logs
+Step-by-Step Guide:
+
+1.	To monitor CPU and memory usage:
+o	Use htop to see live data:
+htop
+o	Press q to quit.
+
+2.	To check disk usage:
+o	Use df to get a summary of disk space:
+df -h
+
+3.	To check system uptime and load:
+o	Use uptime:
+Uptime
+
+4.	To view detailed logs:
+o	Use journalctl -xe for system log events.
+o	For specific logs, use:
+cat /var/log/syslog
+
+________________________________________
+System Security
+ Definition: Basic System Security Principles on Linux
+•	System Security: Focuses on protecting the integrity, availability, and confidentiality of the system by implementing proper user management, file permissions, and firewall settings.
+
+•	Key principles:
+o	Keep the system up-to-date.
+o	Apply the principle of least privilege (users and processes only have necessary permissions).
+o	Use strong passwords and manage user accounts securely.
+o	Monitor logs for unusual activity.
+o	
+________________________________________
+File Permissions in Linux
+File and Folder Permissions
+•	Permissions are given to three categories: Owner, Group, and Others. Permissions include:
+o	r (read), w (write), x (execute).
+
+Key Commands:
+•	chmod: Changes file or directory permissions.
+o	Example: Make a file executable.
+chmod +x script.sh
+
+•	chown: Changes the ownership of files or directories.
+o	Example: Change the owner of a file to user alice.
+sudo chown alice file.txt
+
+•	ls -l: Lists files with detailed permission and ownership information.
+o	Example:
+ls -l
+
+________________________________________
+3. User Management
+Creating, Modifying, and Deleting Users:
+•	Add a new user:
+sudo adduser username
+
+•	Modify a user (e.g., to add a user to a group):
+sudo usermod -aG groupname username
+
+•	Delete a user:
+sudo deluser username
+
+________________________________________
+4. Firewall Basics: ufw (Uncomplicated Firewall)
+Enabling and Configuring the Firewall:
+•	Enable ufw:
+sudo ufw enable
+
+•	Allow a specific port (e.g., SSH on port 22):
+sudo ufw allow 22
+
+•	Deny a specific port:
+sudo ufw deny 80
+
+•	Check the status of ufw:
+sudo ufw status
+
+________________________________________
+5. Self-Made Instructions: Securing a Folder and Setting Up Firewall Rules
+Step-by-Step Guide:
+To secure a directory:
+o	Set permissions so only the owner can access the folder:
+chmod 700 foldername
+
+To set up basic firewall rules:
+o	Enable the firewall:
+sudo ufw enable
+
+o	Allow SSH (port 22):
+sudo ufw allow 22
+
+o	Deny HTTP traffic (port 80):
+sudo ufw deny 80
+
+________________________________________
+Using Git for Updates
+1. Commit Your Changes to "class notes" Regularly
+•	Make sure to commit your changes to your notes after every important update.
+Example of a Git commit command:
+git add .
+git commit -m "Added Bash script examples"
+2. Push Your Commits to Your GitHub Repository
+•	Push your changes for review:
+git push origin main
 
 
 
