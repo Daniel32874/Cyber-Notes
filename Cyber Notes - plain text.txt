@@ -377,6 +377,24 @@ git commit -m "Added Bash script examples"
 •	Push your changes for review:
 git push origin main
 
+Explanation of the Script Concepts (from Least Complex to Most Complex):
+* Comments (#): Anything after a # is ignored by the computer. Comments are for explaining the code and helping readers understand it.
+
+* echo: This command displays messages on the screen. It's useful for prompts, comments, instructions, and troubleshooting code.
+
+* Variables: Variables store values. For example, age_years and age_days hold user input and calculated data. You can use echo to display a variable’s value for debugging.
+
+* if Statement: Checks conditions to control which parts of the script run. For example, it ensures valid user input.
+
+* Regex (^[0-9]+$): A regular expression (regex) is used to match specific patterns in text. Here, it ensures input contains only digits (0-9).
+
+* [[ ]] and !~: [[ ]] is used to test conditions in Bash. !~ means "does not match," like checking if input is not a number.
+
+* Arithmetic Calculation ($(( ))): Performs math calculations, like converting years into days using age_days=$((age_years * 365)).
+
+* Exit Code (exit 1): Ends the script and returns an error code if something goes wrong, like invalid input.
+
+
 
 
 
