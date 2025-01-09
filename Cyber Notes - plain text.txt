@@ -394,11 +394,33 @@ Explanation of the Script Concepts (from Least Complex to Most Complex):
 
 * Exit Code (exit 1): Ends the script and returns an error code if something goes wrong, like invalid input.
 
+Privacy amd Security Terms:
+* Government: The system to be in charge of a state or community.
 
+* Society: A large grouping of people having common traditions, collective activities and interests.
 
+* Community: A group of people with a common characteristic or interest, living together within a larger society.
 
+* Legislation:  A law or a set of laws that have been passed by Parliament. 
 
+* Law vs By-Law:  A law is a rule made by an authority and that must be obeyed while By-laws are laws made by organizations not governments.
 
+* Legal and Illegal: "Legal" are things allowed by law while "Illegal" means are things disallowed by law.
 
+* Privacy: Someone's right to keep their personal matters and relationships secret.
 
+* Information Security:  Protecting information and information systems from unauthorized access, use, disclosure, modification, or destruction in order to provide integrity and confidentiality.
 
+* Security: The state of being free from danger or threat.
+
+* Operational Security(OPSEC): A security and risk management process that prevents sensitive information from getting into the wrong hands.
+
+* Crown Company/Organization: Public sector organizations established and funded by the government to provide specialized goods and services to it's citizens.
+
+* Public Company/Organization: A company whose shares trade on a stock exchange.
+
+* Private Company/Organization: A business owned by individuals or a small group of investors, and its shares are not traded on public stock exchanges.
+
+* Nonprofit Company/Organization: A legal entity organized and operated for a collective, public or social benefit.
+
+* Not-For-Profit Company/Organization: Organisations which are set up with the prime objective of social welfare of the society.
